@@ -14,7 +14,6 @@ import java.util.Arrays;
 import java.util.List;
 
 @Service
-@Builder
 public class CarService {
     @Autowired
     private CarRepository carRepository;
